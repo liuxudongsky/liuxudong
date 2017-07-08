@@ -1,8 +1,6 @@
 <style>
 	*{margin: 0;padding: 0;}
-	body{
-		margin: 0 auto;
-	}
+	body{margin: 0 auto;}
 	.cont{
 		width: auto;
 		display: -webkit-box;
@@ -10,13 +8,13 @@
 		display: box;
 		padding: 1.5%;
 	}
-	.grid{
+	.cont div{
 		-moz-box-flex:1;
     	-webkit-box-flex:1;
     	box-flex:1;
-		padding: 15%;
 		margin: 1.5%;
 		background: #ffa600;
-		border-radius: 15%;
+		padding: 15%;
+		border-radius: 10%;
 	}
 	</style>
